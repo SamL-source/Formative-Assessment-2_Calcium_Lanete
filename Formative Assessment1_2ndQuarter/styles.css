@@ -1,0 +1,142 @@
+/**{
+    border: 1px solid black;
+}*/
+
+#wrapper{
+    width: 970px;
+    border: 1px solid rgb(0, 27, 117);
+    margin: 0px auto;
+    margin-top: -30px; /*I put a negative margin so it will not have a space at the top*/
+    background-color: rgb(240, 247, 255);
+}
+
+header{
+    background-color: rgb(0, 71, 153);
+    padding-right:10px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+    margin-bottom:10px;
+}
+
+h1{
+    padding-left: 20px;
+    font-family: Boldonse;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+header p{ /*This is the tagline*/
+    text-align: center;
+}
+
+nav{
+    width: 300px; 
+    float: right; 
+    margin: 25px 10px 10px 10px;
+    background-color: rgb(212, 238, 255);
+    padding-left: 10px;
+    border: 2px solid rgb(0, 0, 107);
+}
+
+a:link{
+    text-decoration: none;
+    color: rgb(0, 54, 102);
+}
+
+a:visited{
+    text-decoration: none;
+    color: rgb(0, 173, 196);
+}
+
+a:hover{
+    background-color: rgb(14, 4, 102);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 5px 5px 5px;
+}
+
+a:active{
+    text-decoration: none;
+    color: rgb(175, 213, 255);
+}
+
+#morning{
+    padding-left: 30px;    
+    word-spacing: 2px;
+    font-size: 120%;
+}
+
+
+#midday {
+    padding-left: 30px;
+    padding-right: 10px;
+    word-spacing: 2px;
+    font-size: 120%;
+}
+
+#mmedia{/*For added images and video*/
+    position: relative;
+    left:40px;
+}
+
+#midday img {
+     margin-right: 10px;
+     margin-bottom: 10px;
+    border:5px solid rgb(17, 28, 128);
+    border-radius: 10%;
+}
+
+#midday video{
+    border:5px solid rgb(17, 28, 128);
+    border-radius: 10%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#highlight{
+    padding-left: 30px;
+    margin-right:10px;
+    word-spacing: 2px;
+    font-size: 120%;
+}
+
+#vid{
+    margin: 0px auto;
+    width: 600px;
+}
+
+article{
+    margin-left: 30px;
+    margin-right:10px;
+    font-size: 120%;
+}
+
+aside{
+    margin-left: 30px;
+    margin-right:10px;
+    font-size: 90%;
+}
+
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    color: rgb(0, 22, 94);
+    font-size: 180%;
+}
+
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#ftwrap{
+    background-color:rgb(0, 71, 153);
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 110%;
+} 
+
+footer p{
+    text-align: center;
+    padding-top: 20px;
+}
